@@ -1,0 +1,23 @@
+.card {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    text-align: center;
+    justify-content: center;
+    margin:10px;
+}
+
+.images{
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    background: black;
+    margin: 10px;   
+}
+
+img {
+    width: 170px;  
+    height: 150px; 
+    position: relative;
+    left: 20px;;
+}

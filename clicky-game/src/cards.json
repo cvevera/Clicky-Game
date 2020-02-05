@@ -1,0 +1,56 @@
+[{
+    "id": 1,
+    "image": "./images/BabyYoda.gif"
+  },
+  {
+    "id": 2,
+    "image": "./images/C3PO.gif"
+  },
+  {
+    "id": 3,
+
+    "image": "./images/DancingYoda.gif"
+  },
+  {
+    "id": 4,
+    "image": "./images/DarthVader.gif"
+  },
+  {
+    "id": 5,
+    "image": "./images/Duel.gif"
+  },
+  {
+    "id": 6,
+    "image": "./images/Han.gif"
+
+  },
+  {
+    "id": 7,
+    "image": "./images/Leia.gif"
+
+  },
+  {
+    "id": 8,
+    "image": "./images/Luke.gif"
+
+  },
+  {
+    "id": 9,
+    "image": "./images/Luke2.gif"
+
+  },
+  {
+    "id": 10,
+    "image": "./images/Palpatine.gif"
+
+  },
+  {
+    "id": 11,
+    "image": "./images/ObiWan.gif"
+
+  },
+  {
+    "id": 12,
+    "image": "./images/yoda.gif"
+  }
+]
