@@ -20,7 +20,8 @@ state = {
 handleGuess = event => {
   const id = event.target.attributes.getNamedItem("alt").value;
   console.log(id)
-  this.shuffleCards()
+  this.shuffleCards();
+  this.clickCheck(id);
 }
 
 shuffleArray = (a) => {
@@ -36,6 +37,24 @@ shuffleArray = (a) => {
 
 shuffleCards = () => {
   this.setState(this.state.cards = this.shuffleArray(this.state.cards))
+}
+
+clickCheck = (id) => {
+  const newState = { ...this.state };
+  if (newState.guesses.includes(id)) {
+    newState.guesses = [];
+    newState.yourScore = 0;
+    alert("You've already picked that one. Try again!")
+    console.log(newState.guesses);
+    this.setState(this.state = newState);
+  } else {
+    newState.guesses.push(id)
+    this.setState(this.state = newState)
+    newState.yourScore++
+    console.log(newState.guesses)
+  }
+  return newState
+  
 }
 
 render() {
