@@ -23,6 +23,7 @@ handleGuess = event => {
   this.shuffleCards();
   this.clickCheck(id);
   this.updateBestScore(this.state)
+  this.win(this.state);
 }
 
 shuffleArray = (a) => {
@@ -63,6 +64,14 @@ updateBestScore = (updateState) => {
     this.setState(this.state = updateState)
   }
   return updateState
+}
+
+win = (updateState) => {
+  if (updateState.guesses.length === 12) {
+    updateState.guesses = [];
+    alert("You Win!")
+    this.setState(this.state = updateState)
+  }
 }
 
 render() {

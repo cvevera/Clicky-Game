@@ -1,56 +1,64 @@
 [{
     "id": 1,
-    "image": "./images/BabyYoda.gif"
+    "image": "./images/BabyYoda.gif",
+    "name": "Baby Yoda"
   },
   {
     "id": 2,
-    "image": "./images/C3PO.gif"
+    "image": "./images/C3PO.gif",
+    "name": "C3PO"
   },
   {
     "id": 3,
-
-    "image": "./images/DancingYoda.gif"
+    "image": "./images/DancingYoda.gif",
+    "name": "Dancing Yoda"
   },
   {
     "id": 4,
-    "image": "./images/DarthVader.gif"
+    "image": "./images/DarthVader.gif",
+    "name": "Darth Vader"
   },
   {
     "id": 5,
-    "image": "./images/Duel.gif"
+    "image": "./images/Duel.gif",
+    "name": "Duel"
   },
   {
     "id": 6,
-    "image": "./images/Han.gif"
+    "image": "./images/Han.gif",
+    "name": "Han Solo"
 
   },
   {
     "id": 7,
-    "image": "./images/Leia.gif"
+    "image": "./images/Leia.gif",
+    "name": "Leia"
 
   },
   {
     "id": 8,
-    "image": "./images/Luke.gif"
-
+    "image": "./images/Luke.gif",
+    "name": "Luke1"
   },
   {
     "id": 9,
-    "image": "./images/Luke2.gif"
+    "image": "./images/Luke2.gif",
+    "name": "Luke2"
 
   },
   {
     "id": 10,
-    "image": "./images/Palpatine.gif"
-
+    "image": "./images/Palpatine.gif",
+    "name": "Palpatine"
   },
   {
     "id": 11,
-    "image": "./images/ObiWan.gif"
-
+    "image": "./images/ObiWan.gif",
+    "name": "ObiWan"
   },
   {
     "id": 12,
-    "image": "./images/yoda.gif"
+    "image": "./images/yoda.gif",
+    "name": "Yoda"
   }
 ]
