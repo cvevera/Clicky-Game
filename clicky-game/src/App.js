@@ -22,6 +22,7 @@ handleGuess = event => {
   console.log(id)
   this.shuffleCards();
   this.clickCheck(id);
+  this.updateBestScore(this.state)
 }
 
 shuffleArray = (a) => {
@@ -40,21 +41,28 @@ shuffleCards = () => {
 }
 
 clickCheck = (id) => {
-  const newState = { ...this.state };
-  if (newState.guesses.includes(id)) {
-    newState.guesses = [];
-    newState.yourScore = 0;
+  const updateState = { ...this.state };
+  if (updateState.guesses.includes(id)) {
+    updateState.guesses = [];
+    updateState.yourScore = 0;
     alert("You've already picked that one. Try again!")
-    console.log(newState.guesses);
-    this.setState(this.state = newState);
+    console.log(updateState.guesses);
+    this.setState(this.state = updateState);
   } else {
-    newState.guesses.push(id)
-    this.setState(this.state = newState)
-    newState.yourScore++
-    console.log(newState.guesses)
+    updateState.guesses.push(id)
+    this.setState(this.state = updateState)
+    updateState.yourScore++
+    console.log(updateState.guesses)
   }
-  return newState
-  
+  return updateState
+}
+
+updateBestScore = (updateState) => {
+  if (updateState.guesses.length > updateState.bestScore) {
+    updateState.bestScore++
+    this.setState(this.state = updateState)
+  }
+  return updateState
 }
 
 render() {
