@@ -4,7 +4,7 @@ import "./style.css";
 
 const Card = props => (
     <div className="card col-md-3">
-        <img className="images" alt={props.name} src={props.image} />
+        <img className="images" alt={props.id} src={props.image} onClick={props.handleGuess} />
     </div>
 )
 
