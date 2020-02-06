@@ -8,17 +8,20 @@ import cards from "./cards.json"
 import "./App.css";
 
 
+class App extends Component {
 
-function App() {
+state = {
+  cards,
+  yourScore: 0,
+  bestScore: 0
+}
 
-
-
-
+render() {
   return (
  <div>
-   <Nav>Star Wars Gif Memory Game!</Nav>
+   <Nav yourScore={this.state.yourScore} bestScore={this.state.bestScore}>Star Wars Gif Memory Game!</Nav>
    <Wrapper>
-                {cards.map(card => (
+                {this.state.cards.map(card => (
                     <Card
                         id={card.id}
                         key={card.id}
@@ -29,6 +32,7 @@ function App() {
 </div>
   
   );
+}
 }
 
 export default App;
