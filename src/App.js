@@ -76,7 +76,7 @@ win = (updateState) => {
 
 render() {
   return (
- <div>
+ <div className="wrap">
    <Nav yourScore={this.state.yourScore} bestScore={this.state.bestScore}>Star Wars Gif Memory Game!</Nav>
    <Wrapper>
                 {this.state.cards.map(card => (
@@ -88,8 +88,8 @@ render() {
                     />
                 ))}
                 </Wrapper>
+                <br></br>
 </div>
-  
   );
 }
 }
