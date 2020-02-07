@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Clicky-Game/static/css/main.f64d41d2.chunk.css",
+    "main.js": "/Clicky-Game/static/js/main.8da39ab0.chunk.js",
+    "main.js.map": "/Clicky-Game/static/js/main.8da39ab0.chunk.js.map",
+    "runtime-main.js": "/Clicky-Game/static/js/runtime-main.da6617cf.js",
+    "runtime-main.js.map": "/Clicky-Game/static/js/runtime-main.da6617cf.js.map",
+    "static/js/2.f3af9676.chunk.js": "/Clicky-Game/static/js/2.f3af9676.chunk.js",
+    "static/js/2.f3af9676.chunk.js.map": "/Clicky-Game/static/js/2.f3af9676.chunk.js.map",
+    "index.html": "/Clicky-Game/index.html",
+    "precache-manifest.245411edf24024c6a9d8ebde1ae06367.js": "/Clicky-Game/precache-manifest.245411edf24024c6a9d8ebde1ae06367.js",
+    "service-worker.js": "/Clicky-Game/service-worker.js",
+    "static/css/main.f64d41d2.chunk.css.map": "/Clicky-Game/static/css/main.f64d41d2.chunk.css.map",
+    "static/js/2.f3af9676.chunk.js.LICENSE.txt": "/Clicky-Game/static/js/2.f3af9676.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Clicky-Game/static/media/blue-and-purple-cosmic-sky-956999.df2d94e1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da6617cf.js",
+    "static/js/2.f3af9676.chunk.js",
+    "static/css/main.f64d41d2.chunk.css",
+    "static/js/main.8da39ab0.chunk.js"
+  ]
+}
